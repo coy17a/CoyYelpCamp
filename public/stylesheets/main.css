@@ -1,0 +1,139 @@
+
+body {
+ background: #ECE9E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#map {
+    height:400px;
+    width: 100%;
+}
+ .main {
+     color: white;
+     align-content: center;
+     justify-content: center;
+     
+ }
+ .main h1 {
+     font-size: 50px;
+ }
+ .main p {
+    font-size: 20px;
+ }
+ .main .container {
+     justify-content: center;
+     text-align: center;
+     
+
+ }
+.content {
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    margin: 40px;
+  }
+  .list-group {
+      width: 300px;
+  }
+  .list-group-item {
+     
+      text-align: center;
+  }
+.camp-actions {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.trash {
+    justify-self: end;
+}
+.btn-warning {
+    width: 100px;
+}
+.btn-xs {
+    width: 50px;
+}
+  .comments {
+    display: grid;
+  }
+  .index-link {
+      grid-column: 2;
+      margin: 20px;
+  }
+
+  .camp {
+    grid-column: 2;
+    margin: 20px;
+  }
+
+  .sidebar {
+    
+    justify-self: center;
+  }
+  .thumbnail img {
+      width:100%;
+  }
+  .thumbnail {
+      padding: 0;
+  }
+  .camp img {
+      height: 70vh;
+  }
+  .index {
+    display: grid;
+}
+.listcamps {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 30px;
+    margin:20px;
+   
+}
+.listcamps img {
+    height: 200px;
+}
+.signUp-btn{
+    display: grid;
+}
+.all {
+    display: grid;
+    
+
+}
+.landing {
+    height: 100vh;
+
+    background: url("https://images.unsplash.com/photo-1486082570281-d942af5c39b7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2d06322d7df8c19c1e648c8c3a101d2d&auto=format&fit=crop&w=1351&q=80") no-repeat center center fixed;
+    background-size: cover;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    
+}
+
+.all  h1 {
+    color: white;
+    font-size: 9vh;
+    letter-spacing: 10px;
+
+}
+
+.all p {
+    color: white;
+    font-size: 2vh;
+
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+.comment-actions {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+header {
+    display: grid;
+    height: 50vh;
+    background: url(https://source.unsplash.com/AlscQt7Utz4) center no-repeat;
+    background-size: cover;
+}
